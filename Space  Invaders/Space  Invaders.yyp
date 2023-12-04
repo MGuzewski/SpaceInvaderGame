@@ -42,6 +42,7 @@
     {"id":{"name":"spr_bulletEnemy","path":"sprites/spr_bulletEnemy/spr_bulletEnemy.yy",},},
     {"id":{"name":"spr_enemy_2","path":"sprites/spr_enemy_2/spr_enemy_2.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
+    {"id":{"name":"spr_arenaBackground","path":"sprites/spr_arenaBackground/spr_arenaBackground.yy",},},
     {"id":{"name":"Arena","path":"rooms/Arena/Arena.yy",},},
   ],
   "RoomOrderNodes": [
