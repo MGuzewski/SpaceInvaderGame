@@ -20,9 +20,12 @@
     {"name":"spr_bulletPlayer","order":3,"path":"sprites/spr_bulletPlayer/spr_bulletPlayer.yy",},
     {"name":"spr_bulletBoss","order":5,"path":"sprites/spr_bulletBoss/spr_bulletBoss.yy",},
     {"name":"obj_gameMenager","order":1,"path":"objects/obj_gameMenager/obj_gameMenager.yy",},
+    {"name":"obj_enemyBullet","order":4,"path":"objects/obj_enemyBullet/obj_enemyBullet.yy",},
     {"name":"spr_enemy_1","order":1,"path":"sprites/spr_enemy_1/spr_enemy_1.yy",},
     {"name":"spr_bulletEnemy","order":4,"path":"sprites/spr_bulletEnemy/spr_bulletEnemy.yy",},
     {"name":"spr_enemy_2","order":2,"path":"sprites/spr_enemy_2/spr_enemy_2.yy",},
+    {"name":"obj_enemy_1","order":2,"path":"objects/obj_enemy_1/obj_enemy_1.yy",},
+    {"name":"obj_enemy_2","order":3,"path":"objects/obj_enemy_2/obj_enemy_2.yy",},
     {"name":"spr_arenaBackground","order":6,"path":"sprites/spr_arenaBackground/spr_arenaBackground.yy",},
   ],
 }
