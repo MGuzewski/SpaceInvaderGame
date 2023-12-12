@@ -21,5 +21,34 @@ switch(l6372E0D5_0)
 		/// @DnDArgument : "layer" ""Player""
 		/// @DnDSaveInfo : "objectid" "obj_player"
 		instance_create_layer(room_width/2, room_height-128, "Player", obj_player);
+	
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 77FEECD1
+		/// @DnDInput : 4
+		/// @DnDParent : 2C04A737
+		/// @DnDArgument : "expr" "240"
+		/// @DnDArgument : "expr_1" "360"
+		/// @DnDArgument : "expr_3" "10"
+		/// @DnDArgument : "var" "enemy1SpawnTime"
+		/// @DnDArgument : "var_1" "enemy2SpawnTime"
+		/// @DnDArgument : "var_2" "enemyCount"
+		/// @DnDArgument : "var_3" "enemyLimit"
+		enemy1SpawnTime = 240;
+		enemy2SpawnTime = 360;
+		enemyCount = 0;
+		enemyLimit = 10;
+	
+		/// @DnDAction : YoYo Games.Instances.Set_Alarm
+		/// @DnDVersion : 1
+		/// @DnDHash : 2B396E11
+		/// @DnDInput : 2
+		/// @DnDParent : 2C04A737
+		/// @DnDArgument : "steps" "enemy1SpawnTime"
+		/// @DnDArgument : "steps_1" "enemy2SpawnTime"
+		/// @DnDArgument : "alarm" "1"
+		/// @DnDArgument : "alarm_1" "2"
+		alarm_set(1, enemy1SpawnTime);
+		alarm_set(2, enemy2SpawnTime);
 		break;
 }
