@@ -3,8 +3,8 @@
 /// @DnDHash : 27F65C23
 /// @DnDArgument : "var" "y"
 /// @DnDArgument : "op" "3"
-/// @DnDArgument : "value" "room_height-sprite_height-vSpd"
-if(y <= room_height-sprite_height-vSpd)
+/// @DnDArgument : "value" "room_height-(sprite_height/2)-vSpd"
+if(y <= room_height-(sprite_height/2)-vSpd)
 {
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1

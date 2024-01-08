@@ -11,4 +11,13 @@ if(y > room_height+sprite_height)
 	/// @DnDHash : 76C88217
 	/// @DnDParent : 703728D0
 	instance_destroy();
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 3E3ECE89
+	/// @DnDParent : 703728D0
+	/// @DnDArgument : "expr" "-50"
+	/// @DnDArgument : "expr_relative" "1"
+	/// @DnDArgument : "var" "obj_gameMenager.points"
+	obj_gameMenager.points += -50;
 }
