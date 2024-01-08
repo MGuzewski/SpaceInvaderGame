@@ -3,8 +3,8 @@
 /// @DnDHash : 7DDE1B8B
 /// @DnDArgument : "var" "x"
 /// @DnDArgument : "op" "4"
-/// @DnDArgument : "value" "sprite_width/2-hSpd"
-if(x >= sprite_width/2-hSpd)
+/// @DnDArgument : "value" "sprite_width/2+hSpd"
+if(x >= sprite_width/2+hSpd)
 {
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1

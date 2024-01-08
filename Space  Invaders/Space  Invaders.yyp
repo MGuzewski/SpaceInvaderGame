@@ -34,9 +34,11 @@
     "IDEVersion": "2023.8.2.106",
   },
   "resources": [
+    {"id":{"name":"spr_playerLive","path":"sprites/spr_playerLive/spr_playerLive.yy",},},
     {"id":{"name":"spr_bulletPlayer","path":"sprites/spr_bulletPlayer/spr_bulletPlayer.yy",},},
     {"id":{"name":"spr_bulletBoss","path":"sprites/spr_bulletBoss/spr_bulletBoss.yy",},},
     {"id":{"name":"obj_gameMenager","path":"objects/obj_gameMenager/obj_gameMenager.yy",},},
+    {"id":{"name":"obj_bulletPlayer","path":"objects/obj_bulletPlayer/obj_bulletPlayer.yy",},},
     {"id":{"name":"obj_enemyBullet","path":"objects/obj_enemyBullet/obj_enemyBullet.yy",},},
     {"id":{"name":"spr_enemy_1","path":"sprites/spr_enemy_1/spr_enemy_1.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},

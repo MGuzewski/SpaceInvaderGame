@@ -25,7 +25,7 @@ switch(l6372E0D5_0)
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 77FEECD1
-		/// @DnDInput : 4
+		/// @DnDInput : 5
 		/// @DnDParent : 2C04A737
 		/// @DnDArgument : "expr" "240"
 		/// @DnDArgument : "expr_1" "360"
@@ -34,10 +34,12 @@ switch(l6372E0D5_0)
 		/// @DnDArgument : "var_1" "enemy2SpawnTime"
 		/// @DnDArgument : "var_2" "enemyCount"
 		/// @DnDArgument : "var_3" "enemyLimit"
+		/// @DnDArgument : "var_4" "points"
 		enemy1SpawnTime = 240;
 		enemy2SpawnTime = 360;
 		enemyCount = 0;
 		enemyLimit = 10;
+		points = 0;
 	
 		/// @DnDAction : YoYo Games.Instances.Set_Alarm
 		/// @DnDVersion : 1
