@@ -25,37 +25,43 @@ switch(l6372E0D5_0)
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 77FEECD1
-		/// @DnDInput : 6
+		/// @DnDInput : 7
 		/// @DnDParent : 2C04A737
 		/// @DnDArgument : "expr" "240"
 		/// @DnDArgument : "expr_1" "360"
 		/// @DnDArgument : "expr_3" "10"
 		/// @DnDArgument : "expr_5" "irandom_range(5*room_speed,10*room_speed)"
+		/// @DnDArgument : "expr_6" "irandom_range(10*room_speed,15*room_speed)"
 		/// @DnDArgument : "var" "enemy1SpawnTime"
 		/// @DnDArgument : "var_1" "enemy2SpawnTime"
 		/// @DnDArgument : "var_2" "enemyCount"
 		/// @DnDArgument : "var_3" "enemyLimit"
 		/// @DnDArgument : "var_4" "points"
 		/// @DnDArgument : "var_5" "powerUpSpawnTime"
+		/// @DnDArgument : "var_6" "bombSpawnTime"
 		enemy1SpawnTime = 240;
 		enemy2SpawnTime = 360;
 		enemyCount = 0;
 		enemyLimit = 10;
 		points = 0;
 		powerUpSpawnTime = irandom_range(5*room_speed,10*room_speed);
+		bombSpawnTime = irandom_range(10*room_speed,15*room_speed);
 	
 		/// @DnDAction : YoYo Games.Instances.Set_Alarm
 		/// @DnDVersion : 1
 		/// @DnDHash : 2B396E11
-		/// @DnDInput : 3
+		/// @DnDInput : 4
 		/// @DnDParent : 2C04A737
 		/// @DnDArgument : "steps" "enemy1SpawnTime"
 		/// @DnDArgument : "steps_1" "enemy2SpawnTime"
 		/// @DnDArgument : "steps_2" "powerUpSpawnTime"
+		/// @DnDArgument : "steps_3" "bombSpawnTime"
 		/// @DnDArgument : "alarm" "1"
 		/// @DnDArgument : "alarm_1" "2"
+		/// @DnDArgument : "alarm_3" "3"
 		alarm_set(1, enemy1SpawnTime);
 		alarm_set(2, enemy2SpawnTime);
 		alarm_set(0, powerUpSpawnTime);
+		alarm_set(3, bombSpawnTime);
 		break;
 }
