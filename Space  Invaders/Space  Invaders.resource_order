@@ -29,6 +29,7 @@
     {"name":"obj_shield","order":6,"path":"objects/obj_shield/obj_shield.yy",},
     {"name":"spr_powerUp","order":10,"path":"sprites/spr_powerUp/spr_powerUp.yy",},
     {"name":"spr_enemy_1","order":1,"path":"sprites/spr_enemy_1/spr_enemy_1.yy",},
+    {"name":"spr_enemy_2_destroyed","order":15,"path":"sprites/spr_enemy_2_destroyed/spr_enemy_2_destroyed.yy",},
     {"name":"obj_powerUp","order":7,"path":"objects/obj_powerUp/obj_powerUp.yy",},
     {"name":"spr_bulletEnemy","order":4,"path":"sprites/spr_bulletEnemy/spr_bulletEnemy.yy",},
     {"name":"spr_enemy_2","order":2,"path":"sprites/spr_enemy_2/spr_enemy_2.yy",},
@@ -38,5 +39,6 @@
     {"name":"spr_bomb","order":11,"path":"sprites/spr_bomb/spr_bomb.yy",},
     {"name":"spr_boss","order":12,"path":"sprites/spr_boss/spr_boss.yy",},
     {"name":"spr_arenaBackground","order":6,"path":"sprites/spr_arenaBackground/spr_arenaBackground.yy",},
+    {"name":"spr_enemy_1_destroyed","order":14,"path":"sprites/spr_enemy_1_destroyed/spr_enemy_1_destroyed.yy",},
   ],
 }

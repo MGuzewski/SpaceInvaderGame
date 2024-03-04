@@ -47,6 +47,7 @@
     {"id":{"name":"spr_powerUp","path":"sprites/spr_powerUp/spr_powerUp.yy",},},
     {"id":{"name":"spr_enemy_1","path":"sprites/spr_enemy_1/spr_enemy_1.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
+    {"id":{"name":"spr_enemy_2_destroyed","path":"sprites/spr_enemy_2_destroyed/spr_enemy_2_destroyed.yy",},},
     {"id":{"name":"obj_powerUp","path":"objects/obj_powerUp/obj_powerUp.yy",},},
     {"id":{"name":"spr_bulletEnemy","path":"sprites/spr_bulletEnemy/spr_bulletEnemy.yy",},},
     {"id":{"name":"spr_enemy_2","path":"sprites/spr_enemy_2/spr_enemy_2.yy",},},
@@ -57,6 +58,7 @@
     {"id":{"name":"spr_bomb","path":"sprites/spr_bomb/spr_bomb.yy",},},
     {"id":{"name":"spr_boss","path":"sprites/spr_boss/spr_boss.yy",},},
     {"id":{"name":"spr_arenaBackground","path":"sprites/spr_arenaBackground/spr_arenaBackground.yy",},},
+    {"id":{"name":"spr_enemy_1_destroyed","path":"sprites/spr_enemy_1_destroyed/spr_enemy_1_destroyed.yy",},},
     {"id":{"name":"Arena","path":"rooms/Arena/Arena.yy",},},
   ],
   "RoomOrderNodes": [
