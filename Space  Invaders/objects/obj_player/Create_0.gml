@@ -8,7 +8,7 @@
 /// @DnDArgument : "expr_3" "true"
 /// @DnDArgument : "expr_4" "normalAttackTime"
 /// @DnDArgument : "expr_5" "3"
-/// @DnDArgument : "expr_6" "20"
+/// @DnDArgument : "expr_6" "5"
 /// @DnDArgument : "var" "vSpd"
 /// @DnDArgument : "var_1" "hSpd"
 /// @DnDArgument : "var_2" "normalAttackTime"
@@ -22,4 +22,4 @@ normalAttackTime = 60;
 loaded = true;
 attackTime = normalAttackTime;
 hp = 3;
-powerUpAttackTime = 20;
+powerUpAttackTime = 5;
