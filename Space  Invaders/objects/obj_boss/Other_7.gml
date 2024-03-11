@@ -1,9 +1,3 @@
-/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
-/// @DnDVersion : 1
-/// @DnDHash : 031E0FCD
-/// @DnDArgument : "msg" ""Animation ended""
-show_debug_message(string("Animation ended"));
-
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 783C261D
