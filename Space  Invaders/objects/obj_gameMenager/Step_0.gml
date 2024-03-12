@@ -47,6 +47,32 @@ switch(l6CB3874A_0)
 				/// @DnDArgument : "var" "is_boss_spawned"
 				is_boss_spawned = true;
 			}
+		
+			/// @DnDAction : YoYo Games.Common.If_Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 50BBC3FF
+			/// @DnDParent : 4AEA5BD7
+			/// @DnDArgument : "var" "current_bonus_hp_points"
+			/// @DnDArgument : "op" "4"
+			/// @DnDArgument : "value" "target_bonus_hp_points"
+			if(current_bonus_hp_points >= target_bonus_hp_points)
+			{
+				/// @DnDAction : YoYo Games.Common.Variable
+				/// @DnDVersion : 1
+				/// @DnDHash : 59132E3E
+				/// @DnDInput : 3
+				/// @DnDParent : 50BBC3FF
+				/// @DnDArgument : "expr" "1"
+				/// @DnDArgument : "expr_relative" "1"
+				/// @DnDArgument : "expr_1" "50"
+				/// @DnDArgument : "expr_relative_1" "1"
+				/// @DnDArgument : "var" "obj_player.hp"
+				/// @DnDArgument : "var_1" "target_bonus_hp_points"
+				/// @DnDArgument : "var_2" "current_bonus_hp_points"
+				obj_player.hp += 1;
+				target_bonus_hp_points += 50;
+				current_bonus_hp_points = 0;
+			}
 		}
 		break;
 }
