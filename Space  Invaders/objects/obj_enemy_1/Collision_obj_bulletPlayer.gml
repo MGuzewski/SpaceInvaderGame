@@ -15,6 +15,7 @@ image_index = 0;
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 496CFB4F
+
 /// @DnDInput : 3
 /// @DnDArgument : "expr" "10"
 /// @DnDArgument : "expr_relative" "1"

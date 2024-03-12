@@ -7,6 +7,7 @@ with(other) instance_destroy();
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 6B7743F6
+
 /// @DnDInput : 3
 /// @DnDArgument : "expr" "30"
 /// @DnDArgument : "expr_relative" "1"
