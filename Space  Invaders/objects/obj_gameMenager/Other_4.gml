@@ -25,13 +25,15 @@ switch(l6372E0D5_0)
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 77FEECD1
-		/// @DnDInput : 8
+		/// @DnDInput : 10
 		/// @DnDParent : 2C04A737
 		/// @DnDArgument : "expr" "240"
 		/// @DnDArgument : "expr_1" "360"
 		/// @DnDArgument : "expr_3" "20"
 		/// @DnDArgument : "expr_5" "irandom_range(5*room_speed,10*room_speed)"
 		/// @DnDArgument : "expr_6" "irandom_range(10*room_speed,15*room_speed)"
+		/// @DnDArgument : "expr_7" "false"
+		/// @DnDArgument : "expr_9" "200"
 		/// @DnDArgument : "var" "enemy1SpawnTime"
 		/// @DnDArgument : "var_1" "enemy2SpawnTime"
 		/// @DnDArgument : "var_2" "enemyCount"
@@ -39,7 +41,9 @@ switch(l6372E0D5_0)
 		/// @DnDArgument : "var_4" "points"
 		/// @DnDArgument : "var_5" "powerUpSpawnTime"
 		/// @DnDArgument : "var_6" "bombSpawnTime"
-		/// @DnDArgument : "var_7" "hpBonusPoints"
+		/// @DnDArgument : "var_7" "is_boss_spawned"
+		/// @DnDArgument : "var_8" "current_bonus_hp_points"
+		/// @DnDArgument : "var_9" "target_bonus_hp_points"
 		enemy1SpawnTime = 240;
 		enemy2SpawnTime = 360;
 		enemyCount = 0;
@@ -47,7 +51,9 @@ switch(l6372E0D5_0)
 		points = 0;
 		powerUpSpawnTime = irandom_range(5*room_speed,10*room_speed);
 		bombSpawnTime = irandom_range(10*room_speed,15*room_speed);
-		hpBonusPoints = 0;
+		is_boss_spawned = false;
+		current_bonus_hp_points = 0;
+		target_bonus_hp_points = 200;
 	
 		/// @DnDAction : YoYo Games.Instances.Set_Alarm
 		/// @DnDVersion : 1
