@@ -25,7 +25,7 @@ switch(l6372E0D5_0)
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 77FEECD1
-		/// @DnDInput : 10
+		/// @DnDInput : 11
 		/// @DnDParent : 2C04A737
 		/// @DnDArgument : "expr" "240"
 		/// @DnDArgument : "expr_1" "360"
@@ -44,6 +44,7 @@ switch(l6372E0D5_0)
 		/// @DnDArgument : "var_7" "is_boss_spawned"
 		/// @DnDArgument : "var_8" "current_bonus_hp_points"
 		/// @DnDArgument : "var_9" "target_bonus_hp_points"
+		/// @DnDArgument : "var_10" "boss_stage"
 		enemy1SpawnTime = 240;
 		enemy2SpawnTime = 360;
 		enemyCount = 0;
@@ -54,6 +55,7 @@ switch(l6372E0D5_0)
 		is_boss_spawned = false;
 		current_bonus_hp_points = 0;
 		target_bonus_hp_points = 200;
+		boss_stage = 0;
 	
 		/// @DnDAction : YoYo Games.Instances.Set_Alarm
 		/// @DnDVersion : 1

@@ -6,17 +6,21 @@ with(obj_gameMenager) {
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 470A2C73
-	/// @DnDInput : 3
+	/// @DnDInput : 4
 	/// @DnDParent : 76377E03
 	/// @DnDArgument : "expr" "false"
 	/// @DnDArgument : "expr_2" "10"
 	/// @DnDArgument : "expr_relative_2" "1"
+	/// @DnDArgument : "expr_3" "1"
+	/// @DnDArgument : "expr_relative_3" "1"
 	/// @DnDArgument : "var" "is_boss_spawned"
 	/// @DnDArgument : "var_1" "enemyCount"
 	/// @DnDArgument : "var_2" "enemyLimit"
+	/// @DnDArgument : "var_3" "boss_stage"
 	is_boss_spawned = false;
 	enemyCount = 0;
 	enemyLimit += 10;
+	boss_stage += 1;
 
 	/// @DnDAction : YoYo Games.Instances.Set_Alarm
 	/// @DnDVersion : 1
