@@ -23,6 +23,7 @@
     {"name":"spr_shield","order":9,"path":"sprites/spr_shield/spr_shield.yy",},
     {"name":"obj_boss","order":9,"path":"objects/obj_boss/obj_boss.yy",},
     {"name":"obj_gameMenager","order":1,"path":"objects/obj_gameMenager/obj_gameMenager.yy",},
+    {"name":"obj_cannon","order":10,"path":"objects/obj_cannon/obj_cannon.yy",},
     {"name":"obj_bulletPlayer","order":5,"path":"objects/obj_bulletPlayer/obj_bulletPlayer.yy",},
     {"name":"obj_bomb","order":8,"path":"objects/obj_bomb/obj_bomb.yy",},
     {"name":"obj_enemyBullet","order":4,"path":"objects/obj_enemyBullet/obj_enemyBullet.yy",},
@@ -40,5 +41,8 @@
     {"name":"spr_boss","order":12,"path":"sprites/spr_boss/spr_boss.yy",},
     {"name":"spr_arenaBackground","order":6,"path":"sprites/spr_arenaBackground/spr_arenaBackground.yy",},
     {"name":"spr_enemy_1_destroyed","order":14,"path":"sprites/spr_enemy_1_destroyed/spr_enemy_1_destroyed.yy",},
+    {"name":"spr_cannon","order":17,"path":"sprites/spr_cannon/spr_cannon.yy",},
+    {"name":"spr_cannon_attack","order":16,"path":"sprites/spr_cannon_attack/spr_cannon_attack.yy",},
+    {"name":"obj_bossBullet","order":11,"path":"objects/obj_bossBullet/obj_bossBullet.yy",},
   ],
 }
