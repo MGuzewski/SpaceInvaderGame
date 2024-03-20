@@ -27,3 +27,14 @@ h_spd = irandom_range(h_spd_min,h_spd_max);
 boss_hp = 100;
 is_boss_on_position = false;
 is_boss_destroyed = false;
+
+/// @DnDAction : YoYo Games.Instances.Create_Instance
+/// @DnDVersion : 1
+/// @DnDHash : 6183148B
+/// @DnDArgument : "xpos_relative" "1"
+/// @DnDArgument : "ypos" "-95"
+/// @DnDArgument : "ypos_relative" "1"
+/// @DnDArgument : "objectid" "obj_cannon"
+/// @DnDArgument : "layer" ""Cannon""
+/// @DnDSaveInfo : "objectid" "obj_cannon"
+instance_create_layer(x + 0, y + -95, "Cannon", obj_cannon);

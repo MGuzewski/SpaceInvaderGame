@@ -40,6 +40,7 @@
     {"id":{"name":"spr_shield","path":"sprites/spr_shield/spr_shield.yy",},},
     {"id":{"name":"obj_boss","path":"objects/obj_boss/obj_boss.yy",},},
     {"id":{"name":"obj_gameMenager","path":"objects/obj_gameMenager/obj_gameMenager.yy",},},
+    {"id":{"name":"obj_cannon","path":"objects/obj_cannon/obj_cannon.yy",},},
     {"id":{"name":"obj_bulletPlayer","path":"objects/obj_bulletPlayer/obj_bulletPlayer.yy",},},
     {"id":{"name":"obj_bomb","path":"objects/obj_bomb/obj_bomb.yy",},},
     {"id":{"name":"obj_enemyBullet","path":"objects/obj_enemyBullet/obj_enemyBullet.yy",},},
@@ -59,6 +60,9 @@
     {"id":{"name":"spr_boss","path":"sprites/spr_boss/spr_boss.yy",},},
     {"id":{"name":"spr_arenaBackground","path":"sprites/spr_arenaBackground/spr_arenaBackground.yy",},},
     {"id":{"name":"spr_enemy_1_destroyed","path":"sprites/spr_enemy_1_destroyed/spr_enemy_1_destroyed.yy",},},
+    {"id":{"name":"spr_cannon","path":"sprites/spr_cannon/spr_cannon.yy",},},
+    {"id":{"name":"spr_cannon_attack","path":"sprites/spr_cannon_attack/spr_cannon_attack.yy",},},
+    {"id":{"name":"obj_bossBullet","path":"objects/obj_bossBullet/obj_bossBullet.yy",},},
     {"id":{"name":"Arena","path":"rooms/Arena/Arena.yy",},},
   ],
   "RoomOrderNodes": [
